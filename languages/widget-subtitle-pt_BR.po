@@ -1,0 +1,34 @@
+# Translation of Widget Subtitle in Portuguese (Brazil)
+# This file is distributed under the same license as the Widget Subtitle package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2013-11-21 16:51-0300\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: GlotPress/0.1\n"
+"Project-Id-Version: Widget Subtitle\n"
+"POT-Creation-Date: \n"
+"Last-Translator: Eduardo Zulian <eduardozulian@gmail.com>\n"
+"Language-Team: \n"
+
+#: widget-subtitle.php:44
+msgid "Subtitle:"
+msgstr "Subtítulo:"
+
+msgid "Widget Subtitle"
+msgstr "Widget Subtitle"
+
+msgid "http://github.com/eduardozulian/widget-subtitle"
+msgstr "http://github.com/eduardozulian/widget-subtitle"
+
+msgid "Add a subtitle input field to all widgets."
+msgstr "Adiciona um campo de subtítulo a todos os widgets."
+
+msgid "Eduardo Zulian"
+msgstr "Eduardo Zulian"
+
+msgid "http://flutuante.com.br"
+msgstr "http://flutuante.com.br"
+
