@@ -1,0 +1,37 @@
+# Copyright (C) 2010 Widget Subtitle
+# This file is distributed under the same license as the Widget Subtitle package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Widget Subtitle 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/widget-subtitle\n"
+"POT-Creation-Date: 2013-11-21 18:44:41+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: widget-subtitle.php:44
+msgid "Subtitle:"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Widget Subtitle"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://github.com/eduardozulian/widget-subtitle"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Add a subtitle input field to all widgets."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Eduardo Zulian"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://flutuante.com.br"
+msgstr ""

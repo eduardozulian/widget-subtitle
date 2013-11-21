@@ -10,16 +10,26 @@
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  */
  
+if ( ! class_exists( 'Widget_Subtitle' ) ) :
+
 class Widget_Subtitle {
 	
 	/**
 	 * PHP5 constructor that calls specific hooks within WordPress
 	 */
 	function __construct( ) {
+		add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain' ) );
 		add_action( 'in_widget_form', array( $this, 'in_widget_form'), 10, 3 ); 
 		add_filter( 'widget_update_callback', array( $this, 'widget_update_callback' ), 10, 4 );
 		add_filter( 'dynamic_sidebar_params', array( $this, 'dynamic_sidebar_params' ) );
 	}
+
+	/**
+	 * Load the plugin's translated strings
+	 */
+	function load_plugin_textdomain() {
+		load_plugin_textdomain( 'widget-subtitle', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+    }
 
 	/**
      * Add a subtitle input field into the form
@@ -84,5 +94,7 @@ class Widget_Subtitle {
 	}
 
 }
+
+endif; // if ( ! class_exists( 'Widget_Subtitle' ) )
 
 $widget_subtitle = new Widget_Subtitle();
