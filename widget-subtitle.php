@@ -1,16 +1,16 @@
 <?php
-/**
- * Plugin Name: Widget Subtitle
- * Plugin URI: http://github.com/eduardozulian/widget-subtitle
- * Description: Add a subtitle input field to all widgets.
- * Version: 1.0
- * Author: Eduardo Zulian
- * Author URI: http://flutuante.com.br
- * License: GNU General Public License v2 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain: widget-subtitle
- * Domain Path: /languages
- */
+/*
+Plugin Name: Widget Subtitle
+Plugin URI: http://github.com/eduardozulian/widget-subtitle
+Description: Add a subtitle input field to all widgets.
+Version: 1.0
+Author: Eduardo Zulian
+Author URI: http://flutuante.com.br
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: widget-subtitle
+Domain Path: /languages
+*/
  
 if ( ! class_exists( 'Widget_Subtitle' ) ) :
 
