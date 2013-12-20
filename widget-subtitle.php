@@ -3,7 +3,7 @@
 Plugin Name: Widget Subtitle
 Plugin URI: http://github.com/eduardozulian/widget-subtitle
 Description: Add a subtitle input field to all widgets.
-Version: 1.0
+Version: 1.1
 Author: Eduardo Zulian
 Author URI: http://flutuante.com.br
 License: GNU General Public License v2 or later
@@ -81,20 +81,31 @@ class Widget_Subtitle {
 
 				$instance = $instance[$params[1]['number']];
 			
-				// Add the subtitle at the end of 'after_title' param
+				// Add the subtitle
 				if ( ! empty( $instance['widget_subtitle'] ) ) {
-					$subtitle = '<span class="widget-subtitle">'. $instance['widget_subtitle']. '</span>';
-					$params[0]['after_title'] = $params[0]['after_title'] . $subtitle;
+
+					// The 'after_title' tag wrapper
+					$after_title_tag = $params[0]['after_title'];
+
+					// Filters for both subtitle class and tag
+					$subtitle_tag = apply_filters( 'widget_subtitle_tag', 'span' );
+					$subtitle_class = apply_filters( 'widget_subtitle_class', array( 'widget-subtitle' ) );
+					$subtitle_class = is_array( $subtitle_class ) ? ' class="' . implode( ' ', $subtitle_class ) . '"' : '';
+
+					// Start the output
+					$subtitle = '<' . $subtitle_tag . $subtitle_class . '>';
+					$subtitle .= $instance['widget_subtitle'];
+					$subtitle .= '</' . $subtitle_tag . '>';
+
+					$output = $subtitle . $after_title_tag;
+					$params[0]['after_title'] = apply_filters( 'widget_subtitle_position', $output, $after_title_tag, $subtitle );
+
 				}
-
 			}
-
 		}
-			
 		return $params;
-
 	}
-
+	
 }
 
 endif; // if ( ! class_exists( 'Widget_Subtitle' ) )
