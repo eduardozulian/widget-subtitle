@@ -1,9 +1,9 @@
 # Widget Subtitle #
-**Contributors:** eduardozulian  
+**Contributors:** eduardozulian, keraweb  
 **Donate link:** https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H28V8F5PHSZHA  
 **Tags:** widget, widget subtitle, subtitle, sidebar  
 **Requires at least:** 3.0  
-**Tested up to:** 3.7  
+**Tested up to:** 4.5  
 **Stable tag:** 1.0  
 **License:** GPLv2 or later  
 **License URI:** http://www.gnu.org/licenses/gpl-2.0.html  
@@ -23,6 +23,10 @@ Inspired by [DP Widgets Plus](http://wordpress.org/plugins/dp-widgets-plus/).
 3. Go to *Appearance* > *Widgets* menu and fill out your subtitles
 
 ## Changelog ##
+
+### 1.1 ###
+*	Feature: Add option to choose subtitle locations within the widget
+*	Feature: Add filter option for widget subtitle classes and element
 
 ### 1.0 ###
 * First version
