@@ -1,5 +1,5 @@
 # Widget Subtitle #
-**Contributors:** eduardozulian, keraweb
+**Contributors:** eduardozulian, keraweb  
 **Donate link:** https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H28V8F5PHSZHA  
 **Tags:** widget, widget subtitle, subtitle, sidebar  
 **Requires at least:** 3.0  
